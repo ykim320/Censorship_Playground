@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_invalid_method"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_invalid_method"/>
+	<item
+        android:id="@+id/action_invalid_field_count"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_invalid_field_count"/>
+	<item
+        android:id="@+id/action_big_request_method"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_big_request_method"/>
+	<item
+        android:id="@+id/action_invalid_version_number"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_invalid_version_number"/>
+</menu>

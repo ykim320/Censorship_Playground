@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Censorship_Test1</string>
+    <string name="action_invalid_method">Invalid request method</string>
+    <string name="action_invalid_field_count">Invalid Field count</string>
+    <string name="action_big_request_method">Random big request method</string>
+    <string name="action_invalid_version_number">Invalid version number</string>
+    <string name="hello_world">Hello world!</string>
+</resources>
