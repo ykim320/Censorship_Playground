@@ -24,23 +24,18 @@ public class EchoServer {
 		Socket socket = server.accept();
 
 		InputStream is = socket.getInputStream();
-		OutputStream os = socket.getOutputStream();
+		OutputStream os = socket.getOutputStream(); 
 		DataOutputStream out = new DataOutputStream(os);
 		BufferedReader in = new BufferedReader(new InputStreamReader(is));
 
+		String line;
+		line = in.readLine();
+	      
+		System.out.println(line);
+		out.writeBytes(line);
 //		out.writeBytes("HTTP/1.1 404 OK\n");
 //		out.writeBytes("Content-Type: text/plain\n\n");
-
-		String line;
-
-		//Reading what is sent by the client and 
-		//sends it back to server
-		line = in.readLine();
-		out.writeBytes(line);
-
-//		while ((line = in.readLine()) != null && (line.length() != 0)) {
-//			out.writeBytes(line + "\n");
-//		}
+		
 		out.close();
 		socket.close();
 	}
