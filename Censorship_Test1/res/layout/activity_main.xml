@@ -13,5 +13,20 @@
         	android:layout_width="wrap_content"
      		android:layout_height="wrap_content"  
     ></Button>
-        
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button"
+        android:text="Manipulated Header" />
+    
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:layout_below="@+id/button" />
+    
         </RelativeLayout>
